@@ -7,6 +7,7 @@ import networking.firewall as fw
 import networking.iam as iam
 import networking.router as router
 import networking.nat as nat
+import compute_engine.VM as vm
 
 
 bucket = gcp.storage.Bucket("bucket-dat-intern26", 
